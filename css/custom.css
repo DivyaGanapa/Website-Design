@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/OpenSans-Bold-webfont.eot');
+    src: url('fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Bold-webfont.woff') format('woff'), url('fonts/OpenSans-Bold-webfont.ttf') format('truetype'), url('fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Light-webfont.woff') format('woff'), url('fonts/OpenSans-Light-webfont.ttf') format('truetype'), url('fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Regular-webfont.woff') format('woff'), url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('fonts/OpenSans-Semibold-webfont.eot');
+    src: url('fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Semibold-webfont.woff') format('woff'), url('fonts/OpenSans-Semibold-webfont.ttf') format('truetype'), url('fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, p, span {
+    font-family: 'open_sansregular';
+    color: #333;
+    font-size: 13px;
+}
+
+.row {
+    max-width: 70rem;
+}
+
+header {
+    font-size: 40px;
+    background-image: url("../Images/headermenubackground.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: -50px;
+    height: 145px;
+    width: 1225px;
+    z-index: 999;
+}
+
+header img {
+    margin-left: 80px;
+    margin-top: 13px;
+}
+
+header div {
+    margin-right: 30px;
+    margin-top: 18px;
+    font-family: open_sanslight;
+    font-size: 18px;
+    color: #fff;
+
+    float: right;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+header a:hover {
+    color: #ffff00;
+
+}
+
+.donate-panel {
+    margin-top: 343px;
+    float: left;
+    clear: both;
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: open_sansbold;
+    margin: 0;
+
+}
+
+header h2 {
+    font-size: 20px;
+    color: #ffc000;
+    text-transform: uppercase;
+    font-family: open_sansbold;
+    text-align: center;
+}
+
+.messageboard {
+    background-color: #ebdf21;
+    padding: 30px 40px;
+    margin-left: 125px;
+    width: 80%;
+    float: left;
+
+}
+
+.messageboard h1 {
+    font-size: 23px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.messageboard h2 {
+    font-size: 23px;
+    font-style: italic;
+    color: #000;
+    text-transform: capitalize;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-family: open_sanslight;
+}
+
+footer {
+    background-color: #e1e1e1;
+    font-size: 13px;
+    margin-top: 50px;
+    color: #333;
+    padding: 40px 40px 20px 40px;
+}
+
+footer p {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+footer a {
+    color: #333;
+}
+
+.page-heading {
+    margin-top: 40px;
+}
+
+hr {
+    border: solid #ccc;
+    border-width: 1px 0 0;
+    clear: both;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    height: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'open_sanslight';
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    line-height: 30px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.panelboxl, .panelbox2, .panelbox3, .panelbox4, .panelbox5, .panelbox6, .panelbox7, .panelbox8 {
+    background: #42b18e;
+    padding: 10px;
+    width: 205px;
+    margin: 0px 8px;
+    display: inline-block;
+}
+
+.panelbox2 {
+    background: #e69800;
+}
+
+.panelbox3 {
+    background: #28a601;
+}
+
+.panelbox4 {
+    background: #8700e6;
+}
+
+.panelbox5 {
+    background: #bb480a;
+}
+.panelbox6, .panelbox7, .panelbox8 {
+    width: 300px;
+}
+
+.panelboxl h1, .panelbox2 h1, .panelbox3 h1, .panelbox4 h1, .panelbox5 h1 {
+    font-size: 16px;
+    font-family: open_sanssemibold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.panelboxl p, .panelbox2 p, .panelbox3 p, .panelbox4 p, .panelbox5 p {
+    font-size: 13px;
+    color: #fff;
+    line-height: 22px;
+    text-align: left;
+}
+
+.panelboxl a, .panelbox2 a, .panelbox3 a, .panelbox4 a, .panelbox5 a {
+    font-size: 13px;
+    color: #fff;
+    font-family: open_sanssemibold;
+    text-align: right;
+    float: right;
+    margin-right: 5px;
+}
+
+.social-icons {
+    margin: 0px auto;
+    width: 320px;
+}
+
+.social-icons span {
+    margin: 0px 13px;
+
+}
+
